@@ -25,3 +25,16 @@ Denne tekst gælder som udgangspunkt for projekter, der har valgt at bruge den. 
 Lokalt projekt: `tommyfjepsen/fvbapp`.
 
 Kilde til fælles principper: `tommyfjepsen/constitus-hub-portal/docs/agents/shared-ai-workflow.md`. Den lokale projektkopi er fortsat gældende, indtil den opdateres i det pågældende projekt.
+
+## Overtagelse af fastlåst eller utilgængelig ChatGPT-tråd
+
+Når brugeren beder en ny tråd overtage en fastlåst, udløbet eller utilgængelig tråd:
+
+1. Hent seneste `AGENTS.md` og de relevante projekt- og vidensfiler fra hovedbranchen. Brug aldrig en gammel lokal kopi.
+2. Find eksisterende GitHub-issue/checkpoint, aktive branches/PR'er og eventuelle relevante release- eller integrationsstatusser.
+3. Kontrollér, hvad der faktisk er udført, hvad der mangler, og om noget er udgivet. En gammel chats seneste besked er ikke bevis på status.
+4. Fortsæt det **eksisterende** arbejde fra verificeret tilstand. Opret ikke parallelle issues, branches, løsninger eller Work-tråde, hvis de allerede findes. Bevar nyere ændringer fra andre tråde.
+5. Opdatér det eksisterende checkpoint med **færdigt, mangler, næste skridt, branch/PR, udgivelsesstatus og konkrete blokkere**.
+6. Meld kort til brugeren, at overtagelsen er sket, hvad næste skridt er, og hvilke oplysninger der eventuelt ikke kunne genskabes. Bed kun om nødvendige manglende oplysninger.
+
+En ny tråd må ikke antage, at den kan læse eller styre den gamle ChatGPT-tråd. Brug tilgængelige projektkilder frem for at gætte. Overtagelse er ikke en ny tilladelse til at udgive; følg projektets gældende releaseprocedure.
